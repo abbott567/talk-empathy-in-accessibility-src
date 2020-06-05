@@ -89,6 +89,22 @@ function watchTask () {
   )
 }
 
+const axepackage = require('gulp-axe-webdriver')
+
+function axe () {
+  var options = {
+    saveOutputIn: 'allHtml.json',
+    headless: false,
+    showOnlyViolations: true,
+    urls: ['output/**/*.html']
+  }
+  return axepackage(options)
+}
+
+exports.axe = parallel(
+  axe
+)
+
 // Export the default Gulp task so it can be run
 // Runs the scss and js tasks simultaneously
 // then runs cacheBust, then watch task
