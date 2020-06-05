@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 29,
+  last: false,
+  title: "Premier League table corrected"
+} %}
+
+{% block content %}
+
+  <h1>
+    The website was BBC Sport.
+  </h1>
+
+  <p class="visually-hidden">
+    It has now been updated so each coloured square contains a W for a win, an L 
+    for a loss and a D for a draw.
+  </p>
+
+  <img src="../img/exercise-2-bbc-sport.jpg" alt="The BBC Sport website" />
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 19,
+  last: false,
+  title: "Wheelchair ramp"
+} %}
+
+{% block content %}
+
+  <h1>
+    You have a wheelchair ramp fitted.
+  </h1>
+
+  <p class="visually-hidden">
+    You can easily roll from your home onto the street.
+  </p>
+
+  <img src="../img/exercise-1-wheelchair-ramp.jpg" alt="A house with a wheelchair ramp at the door" />
+
+{% endblock %}

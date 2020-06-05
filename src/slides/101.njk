@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgGrey',
+  no: 101,
+  last: false,
+  title: "Beyonce"
+} %}
+
+{% block content %}
+
+  <h1>
+    Beyonce
+  </h1>
+
+  <img src="../img/beyonce.jpg" alt="Beyonce" />
+  
+  <p>
+    <a href="https://www.theguardian.com/music/2019/jan/04/beyonce-parkwood-entertainment-sued-over-website-accessibility">
+      Beyonce law suit
+    </a>
+  </p>
+
+{% endblock %}

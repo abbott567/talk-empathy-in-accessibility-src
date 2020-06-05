@@ -1,0 +1,27 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 54,
+  last: false,
+  title: "Dragon and input types"
+} %}
+
+{% block content %}
+
+  <h1>
+    Dragon and input types.
+  </h1>
+
+  <p>
+    Dragon knows the difference between a number field and an input field.
+  </p>
+
+  <pre>
+    <code>
+      &lt;input type="text" /&gt;
+      &lt;input type="number" /&gt;
+    </code>
+  </pre>
+  
+{% endblock %}

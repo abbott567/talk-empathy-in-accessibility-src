@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 44,
+  last: false,
+  title: "The problems with Robson Square"
+} %}
+
+{% block content %}
+
+  <h1>
+    The problems with Robson Square.
+  </h1>
+
+  <ul>
+    <li>The ramp is too steep</li>
+    <li>There is a lack of handrails</li>
+    <li>There is no barrier to stop you going down the stairs if you lose control</li>
+  </ul>
+
+  <img src="../img/robson-square.jpg" alt="The ramp in Robson Square from an angle showing it is very steep" />
+
+{% endblock %}

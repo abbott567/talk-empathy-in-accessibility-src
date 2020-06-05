@@ -1,0 +1,26 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 76,
+  last: false,
+  title: "Examples of Vine Sim Specs"
+} %}
+
+{% block content %}
+
+  <h1>
+    Vine Sim Specs simulate visual impairments such as tunnel vision and macula 
+    degeneration.
+  </h1>
+  
+  <img src="../img/impairment-tunnel-vision.jpg" alt="A simulation of tunnel vision" />
+  <img src="../img/impairment-macular-degeneration.jpg" alt="A simulation of macular degeneration" />
+
+  <p>
+    <a href="https://www.vinesimspecs.com/">
+      Vine Sim Specs
+    </a>
+  </p>
+  
+{% endblock %}

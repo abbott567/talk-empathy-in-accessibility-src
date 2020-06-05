@@ -1,0 +1,32 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgTan',
+  no: 87,
+  last: false,
+  title: "Designing for usrs on the autistic spectrum"
+} %}
+
+{% block content %}
+
+  <h1 class="visually-hidden">
+    Designing for users on the autistic spectrum.
+  </h1>
+
+  <p class="visually-hidden">
+    Do write in plain english.
+  </p>
+
+  <p class="visually-hidden">
+    Don't use figures of speech and idioms.
+  </p>
+  
+  <img src="../img/designing-for-autism.jpg" alt="Designing for autism. Do use plain language. Don't use figures of speech or idioms." />
+
+  <p>
+    <a href="https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf">
+      Home Office Posters
+    </a>
+  </p>
+
+{% endblock %}

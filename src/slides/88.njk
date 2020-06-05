@@ -1,0 +1,25 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 88,
+  last: false,
+  title: "Example of inaccessible error messages"
+} %}
+
+{% block content %}
+
+  <h1>
+    When writing error messages, don't try to be funny. Just tell users what they 
+    need to do to progress.
+  </h1>
+
+  <img src="../img/error-messages.jpg" alt="Error message reading: Oops, you forgot to pop in your number, don't be shy!" />
+
+  <p>
+    <a href="http://wwww.craigabbott.co.uk/error-messages-are-not-funny">
+      Error messages are not funny
+    </a>
+  </p>
+  
+{% endblock %}

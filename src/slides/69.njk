@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 69,
+  last: false,
+  title: "Not all impairments are permanent"
+} %}
+
+{% block content %}
+
+  <h1>
+    Not all impairments are permanent.
+  </h1>
+
+  <img src="../img/microsoft-inclusive-design.jpg" alt="Permanent, temporary and situational examples for a speech impairment. Non-verbal, laryngitis and heavy accent." />
+
+  <p>
+    <a href="https://www.microsoft.com/design/inclusive/">
+      Microsoft Inclusive Design Toolkit
+    </a>
+  </p>
+{% endblock %}

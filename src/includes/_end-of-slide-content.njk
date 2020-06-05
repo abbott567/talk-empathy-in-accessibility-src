@@ -1,0 +1,13 @@
+{% if slide.no > 0 and not slide.last %}
+  <p class="visually-hidden">
+    End of slide. 
+    <a href="{{slide.no+1}}.html">Go to next slide</a>
+  </p>
+{% else %}
+  <p>
+    <span class="visually-hidden">
+      End of presentation. 
+    </span>
+    <a href="1.html">Go back to start</a>
+  </p>
+{% endif %}

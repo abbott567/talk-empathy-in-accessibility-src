@@ -1,0 +1,21 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 83,
+  last: false,
+  title: "Youtube and captions"
+} %}
+
+{% block content %}
+
+  <h1>
+    Youtube can be used to auto-caption your videos.
+  </h1>
+
+  <p>
+    It is good at the timings, but awful at the content. So make sure you don't 
+    rely on it and you go through and edit the captions using something like Aegisub.
+  </p>
+  
+{% endblock %}

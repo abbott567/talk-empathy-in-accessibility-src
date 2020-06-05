@@ -1,0 +1,21 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 70,
+  last: false,
+  title: "Lip reading is hard"
+} %}
+
+{% block content %}
+
+  <h1>
+    Lip reading is hard.
+  </h1>
+
+  <p class="visually-hidden">
+    A lot of words make the same mouth shape, so without any sound you can't tell 
+    them apart.
+  </p>
+
+{% endblock %}

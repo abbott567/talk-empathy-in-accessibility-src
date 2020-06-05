@@ -1,0 +1,50 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 91,
+  last: false,
+  title: "GDS audit of automated accessibility tools"
+} %}
+
+{% block content %}
+
+  <h1>
+    GDS audit of automated accessibility tools.
+  </h1>
+
+  <p>
+    The best automated tool only found 40% on a page with 142 known issues.
+  </p>
+  
+  <h2>Summary of results</h2>
+  <p>
+    The following is a list of tools and the percentage of barriers or potential barriers found:
+  </p>
+  <dl>
+    <dt>Sortsite</dt>
+    <dd>40%</dd>
+
+    <dt>Tenon</dt>
+    <dd>34%</dd>
+
+    <dt>AChecker</dt>
+    <dd>35%</dd>
+
+    <dt>Wave</dt>
+    <dd>39%</dd>
+
+    <dt>Axe</dt>
+    <dd>30%</dd>
+
+    <dt>Siteimprove</dt>
+    <dd>36%</dd>
+  </dl>
+
+  <p>
+    <a href="https://alphagov.github.io/accessibility-tool-audit">
+      GDS Accessibility Tool Audit
+    </a>
+  </p>
+  
+{% endblock %}

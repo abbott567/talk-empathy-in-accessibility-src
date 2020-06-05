@@ -1,0 +1,9 @@
+<nav class="clearfix">
+  {% if slide.no and (slide.no - 1) > 0 %}
+    <a href="{{slide.no-1}}.html" class="prev" id="prev">Previous slide</a>
+  {% endif %}
+
+  {% if slide.no > 0 and not slide.last %}
+    <a href="{{slide.no+1}}.html" class="next" id="next">Next slide</a>
+  {% endif %}
+</nav>

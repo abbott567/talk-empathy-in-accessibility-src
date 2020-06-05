@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 51,
+  last: false,
+  title: "Code example"
+} %}
+
+{% block content %}
+
+  <h1 class="visually-hidden">
+    If the month is equal to september. Month equals 9.
+  </h1>
+
+  <pre>
+    <code>
+      if (month === 'september') { 
+        month = 9; 
+      }
+    </code>
+  </pre>
+
+{% endblock %}

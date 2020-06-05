@@ -1,0 +1,19 @@
+{% set pathToCSS = 'css/style.css' %}
+{% set pathToJS = 'js/application.js' %}
+
+<!doctype html>
+<html lang="en">
+
+  {% include 'includes/_head.njk' %}
+
+  <body class="start">
+    
+    <main id="main" role="main" class="index">
+      <div class="content">
+
+        {% block content %}{% endblock %}
+        
+      </div>
+    </main>
+  </body>
+</html>

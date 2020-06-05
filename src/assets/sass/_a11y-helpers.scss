@@ -1,0 +1,20 @@
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.skip-to-content-link {
+  position: absolute;
+  top: 1em;
+  left: -1000px;
+  
+  &:focus {
+    left: 1em;
+  }
+}

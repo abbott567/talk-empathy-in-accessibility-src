@@ -1,0 +1,32 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 4,
+  last: false,
+  title: "Stats on the prevalance of disability"
+} %}
+
+{% block content %}
+
+  <h1>
+    The prevalance of disability rises with age.
+  </h1>
+  
+  <p class="visually-hidden">
+    The following percentage of the UK population are registered as having a disability:
+  </p>
+
+  <ul>
+    <li>6% of children</li>
+    <li>16% of working age adults</li>
+    <li>45% of adults over State Pension age</li>
+  </ul>
+  
+  <p>
+    <a href="https://www.gov.uk/government/publications/disability-facts-and-figures/disability-facts-and-figures">
+      ONS – Disability facts and figures
+    </a>
+  </p>
+
+{% endblock %}

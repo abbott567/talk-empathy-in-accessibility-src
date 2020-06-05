@@ -1,0 +1,23 @@
+{% set dir = '../' %}
+
+<!doctype html>
+<html lang="en">
+
+  {% include 'includes/_head.njk' %}
+
+  <body class="{{slide.bodyClass}}">
+    
+    {% include 'includes/_skip-link.njk' %}
+    {% include 'includes/_nav.njk' %}
+
+    <main id="main" role="main" class="slide{{slide.no}}">
+      <div class="content">
+
+        {% block content %}{% endblock %}
+        {% include 'includes/_end-of-slide-content.njk' %}
+
+      </div>
+    </main>
+    <script src="{{dir + 'js/application.js?cb=123'}}"></script>
+  </body>
+</html>

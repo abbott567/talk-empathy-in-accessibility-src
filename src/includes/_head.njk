@@ -1,0 +1,13 @@
+{% set dir = dir or '' %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+      {{'Slide ' + slide.no + ' – ' if slide.no}} 
+      {{slide.title}} – Embracing Accessibility
+    </title>
+
+  <link rel="stylesheet" href="{{dir + 'css/style.css?cb=123'}}">
+</head>

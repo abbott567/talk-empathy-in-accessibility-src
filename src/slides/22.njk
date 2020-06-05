@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 22,
+  last: false,
+  title: "Accessible library"
+} %}
+
+{% block content %}
+
+  <h1>
+    You might have never been disabled had the library been accessible.
+  </h1>
+
+  <p class="visually-hidden">
+    The library is at street level. There is a ramp. You can easily get in and get 
+    your book without any assistance.
+  </p>
+
+  <img src="../img/exercise-1-library-accessible.jpg" alt="A library at street level with a ramp up to the door" />
+
+{% endblock %}

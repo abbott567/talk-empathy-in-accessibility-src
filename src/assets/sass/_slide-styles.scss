@@ -1,0 +1,86 @@
+.index {
+  color: $black;
+
+  a {
+    color: $link-colour;
+  }
+}
+
+.bgBlack {
+  background-color: $black;
+
+  *:focus {
+    outline-color: $yellow;
+  }
+}
+
+.bgWhite {
+  background-color: $white;
+  color: $black;
+
+  a {
+    color: $black;
+  }
+}
+
+.bgIntense {
+  background: $contrast-intense-bg;
+  color: $contrast-intense-text;
+  a {
+    color: $white
+  }
+  nav {
+    border-color: $white;
+  }
+}
+
+.bgDyslexia {
+  background: $contrast-dyslexia-bg;
+  color: $contrast-dyslexia-text;
+  a {
+    color: $black
+  }
+  nav {
+    border-color: $black;
+  }
+}
+
+.bgLowContrast {
+  background: $contrast-low-bg;
+  color: $contrast-low-text;
+  a {
+    color: $white
+  }
+  nav {
+    border-color: $white;
+  }
+}
+
+.bgTan {
+  background: $tan;
+  color: $black;
+  a {
+    color: $black
+  }
+}
+
+.bgGrey {
+  background: $light-grey;
+  color: $black;
+  a {
+    color: $black
+  }
+}
+
+.slide1 img {
+  border-radius: 50%;
+  width: 60%;
+  margin-top: 2em;
+  border: 10px solid $white;
+}
+
+.slide3 img {
+  width: 50%;
+  margin-top: 2em;
+  border: 10px solid $white;
+}

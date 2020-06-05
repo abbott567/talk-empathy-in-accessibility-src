@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 96,
+  last: false,
+  title: "Warning on GOVUK about accessibilty"
+} %}
+
+{% block content %}
+
+  <h1>
+    You'll be breaking the law if your website or app is not accessible. 
+    There will be government checks to make sure that your website and apps follow 
+    the rules.
+  </h1>
+
+  <p>
+    <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">
+      GOVUK guidance for public sector websites
+    </a>
+  </p>
+
+{% endblock %}

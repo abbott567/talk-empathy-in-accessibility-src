@@ -1,0 +1,27 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 31,
+  last: false,
+  title: "Funkify"
+} %}
+
+{% block content %}
+
+  <h1>
+    Funkify
+  </h1>
+
+  <p class="visually-hidden">
+    Funkify is a chrome plugin you can use to simulate colour blindness.
+  </p>
+
+  <img src="../img/funkify.jpg" alt="The Funkify Chrome plugin" />
+
+  <p>
+    <a href="http://www.funkify.org/">
+      Funkify
+    </a>  
+  </p>
+{% endblock %}

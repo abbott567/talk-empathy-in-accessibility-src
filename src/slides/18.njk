@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 18,
+  last: false,
+  title: "Kitchen setup for a wheelchair user"
+} %}
+
+{% block content %}
+
+  <h1>
+    Your house has been made accessible.
+  </h1>
+
+  <p class="visually-hidden">
+    The benches in your kitchen are low. The cupboards are accessible. There is 
+    enough space to turn around your chair.
+  </p>
+
+  <img src="../img/exercise-1-kitchen.jpg" alt="An accessible kitchen" />
+
+{% endblock %}

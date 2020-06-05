@@ -1,0 +1,33 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 2,
+  last: false,
+  title: 'About me'
+} %}
+
+{% block content %}
+
+  <h1>
+    About me
+  </h1>
+  
+  <p>
+    <span class="visually-hidden">My name is </span>Craig Abbott
+  </p>
+
+  <p>
+    <span class="visually-hidden">I am</span> 
+    <a href="https://twitter.com/abbott567">
+      @abbott567 <span class="visually-hidden">on Twitter</span>
+    </a>
+  </p>
+
+  <p>
+    <span class="visually-hidden">I'm </span>Head of Accessibility, Digital
+  </p>
+
+  <img src="../img/headshot-craig-abbott.jpg" alt="Craig Abbott headshot" />
+
+{% endblock %}

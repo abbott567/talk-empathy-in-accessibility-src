@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 20,
+  last: false,
+  title: "Crossing the road"
+} %}
+
+{% block content %}
+
+  <h1>
+    You can cross the road easily.
+  </h1>
+
+  <p class="visually-hidden">
+    The crossing controls are low down. The kerbs are dropped so you can roll up 
+    and down without getting stuck.
+  </p>
+
+  <img src="../img/exercise-1-crossing.jpg" alt="A pedestrian crossing" />
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 21,
+  last: false,
+  title: "Inaccessible library"
+} %}
+
+{% block content %}
+
+  <h1>
+    You arrive at the library, and suddenly now you're disabled.
+  </h1>
+
+  <p class="visually-hidden">
+    The library has around 20 steps. There's no ramp. No lift. It doesn't look like 
+    you can call anyone for assistance.
+  </p>
+
+  <img src="../img/exercise-1-library-inaccessible.jpg" alt="A library with steps out the front of the building" />
+
+{% endblock %}

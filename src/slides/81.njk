@@ -1,0 +1,33 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 81,
+  last: false,
+  title: "Example of video with subtitles"
+} %}
+
+{% block content %}
+
+  <h1>
+    Example of video with subtitles
+  </h1>
+  
+  <section class="player">
+    <div class="controls">
+      <button class="playpause">Play</button>
+      <button class="stop">Stop</button>
+      <button class="rwd">Rewind</button>
+      <button class="fwd">Forward</button>
+      <div class="time">00:00</div>
+    </div>
+
+    <video controls aria-label="Video with subtitles – A woman explaining how plants on the exterior of buildings is a possible way to reduce pollution"
+      <source src="../img/subtitles-present.mp4" type="video/mp4">
+      <p>
+        Your browser doesn't support HTML5 video.
+      </p>
+    </video>
+  </section>
+
+{% endblock %}

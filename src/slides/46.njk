@@ -1,0 +1,28 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 46,
+  last: false,
+  title: "Kings Cross Station"
+} %}
+
+{% block content %}
+
+  <h1>
+    Kings Cross Station
+  </h1>
+
+  <p class="visually-hidden">
+    A black sticker has been applied to a service desk window to make it appear 
+    symmetrical. However, it has blocked out the lower part of the window so 
+    wheel chair users can't be seen.
+  </p>
+
+  <figure>
+    <img src="../img/kings-cross-station.jpg" alt="A wheelchair user at Kings Cross Station trying to use a customer service desk." />
+    <caption>Photo Credit: <a href="https://twitter.com/katyarnie">Katy Arnold, Home Office Digital</a></caption>
+  </figure>
+
+
+{% endblock %}

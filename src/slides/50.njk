@@ -1,0 +1,18 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 50,
+  last: false,
+  title: "GOVUK date component error"
+} %}
+
+{% block content %}
+
+  <h1>
+    GOVUK date component error
+  </h1>
+
+  <img src="../img/date-error.jpg" alt="3 input fields for Day, Month, Year. Month has 'September' written in it. There is an error message that reads: Enter a valid month." />
+
+{% endblock %}

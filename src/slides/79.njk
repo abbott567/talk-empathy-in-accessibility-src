@@ -1,0 +1,22 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 79,
+  last: false,
+  title: "Play a video without the screen"
+} %}
+
+{% block content %}
+
+  <h1>
+    Play a video with the screen turned off.
+  </h1>
+
+  <p>
+    Radio tends to be more descriptive, because they are aware that you can't see. 
+    But videos assume you can, so it's often hard to tell what is going on without 
+    the visual cues.
+  </p>
+  
+{% endblock %}

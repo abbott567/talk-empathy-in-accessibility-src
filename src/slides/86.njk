@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 86,
+  last: false,
+  title: "Home Office posters"
+} %}
+
+{% block content %}
+
+  <h1>
+    The Home Office have created posters to help you design for different impairments.
+  </h1>
+  
+  <img src="../img/home-office-posters.jpg" alt="Home Office posters of how to design for different impairments" />
+
+  <p>
+    <a href="https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf">
+      Home Office Posters
+    </a>
+  </p>
+
+{% endblock %}

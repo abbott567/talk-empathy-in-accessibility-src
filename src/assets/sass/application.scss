@@ -1,0 +1,51 @@
+@import 'lib/normalize';
+@import 'lib/main';
+
+@import 'colours';
+
+@import 'video-controls';
+@import 'element-styles';
+@import 'a11y-helpers';
+@import 'nav';
+@import 'slide-styles';
+
+/*! Application CSS */
+
+.border-2 {
+  border: 2px solid;
+  padding: .2em;
+  margin: .2em;
+}
+
+dl {
+  dt, dd {
+    margin: 0;
+    width: 50%;
+    float: left;
+  }
+
+  dd {
+    text-align: right;
+  }
+
+  div:first-child {
+    margin-top: 3em;
+    border-top: 1px solid;
+  }
+
+  div {
+    padding: 1em 0;
+    width: 100%;
+    border-bottom: 1px solid;
+  }
+}
+
+.small {
+  font-size: .8em;
+}
+
+*:focus {
+  outline-style: solid;
+  outline-color: inherit;
+  outline-offset: .5em;
+}

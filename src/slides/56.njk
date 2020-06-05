@@ -1,0 +1,24 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 56,
+  last: false,
+  title: "It's important to test your product with people who use assistive technology"
+} %}
+
+{% block content %}
+
+  <h1>
+    It's important to test your product with people who use assistive technology.
+  </h1>
+
+  <img src="../img/zoomtext-user.jpg" alt="A man using ZoomText on a desktop computer" />
+
+  <p>
+    <a href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">
+      GDS Blog on testing for accessibility
+    </a>
+  </p>
+
+{% endblock %}

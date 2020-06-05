@@ -1,0 +1,29 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 30,
+  last: false,
+  title: "Sim Daltonism"
+} %}
+
+{% block content %}
+
+  <h1>
+    Sim Daltonism
+  </h1>
+
+  <p class="visually-hidden">
+    Sim Daltonism is an app for iPhone and Mac that allows you to simulate colour 
+    blindness by.
+  </p>
+
+  <img src="../img/sim-daltonism.jpg" alt="The Sim Daltonism app" />
+
+  <p>
+    <a href="https://michelf.ca/projects/sim-daltonism/">
+      Sim Daltonism
+    </a>  
+  </p>
+
+{% endblock %}

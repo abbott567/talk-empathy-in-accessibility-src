@@ -1,0 +1,29 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgWhite',
+  no: 11,
+  last: false,
+  title: "New disabled logo"
+} %}
+
+{% block content %}
+
+  <h1>
+    There has been a push recently to change the disabled logo.
+  </h1>
+
+  <p>
+    Using words like 'accessible', and portraying the user in a much more independant 
+    state.
+  </p>
+
+  <img src="../img/icon-accessible.jpg" alt="Accessible logo" />
+
+  <p>
+    <a href="https://en.wikipedia.org/wiki/International_Symbol_of_Access#Modified_ISA">
+      New accessible icon
+    </a>
+  </p>
+
+{% endblock %}

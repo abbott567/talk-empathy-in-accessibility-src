@@ -1,0 +1,23 @@
+{% extends 'layouts/_slide.njk' %}
+
+{% set slide = {
+  bodyClass: 'bgBlack',
+  no: 27,
+  last: false,
+  title: "Premier League table zoomed in colour"
+} %}
+
+{% block content %}
+
+  <h1>
+    The form of each team over the last 5 games is shown.
+  </h1>
+
+  <p class="visually-hidden">
+    Each game is shown as a distinct coloured rectangle. Green, red and grey represent 
+    a win, loss or draw.
+  </p>
+
+  <img src="../img/exercise-2-table-colour.jpg" alt="A zoomed in section of a Premier League table showing green, red and grey rectangles for a win, loss or draw" />
+
+{% endblock %}
