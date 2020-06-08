@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abbott567/talk-embracing-accessibility.git"
+    "url": "git+https://github.com/abbott567/talk-empathy-in-accessibility-src.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abbott567/talk-embracing-accessibility/issues"
+    "url": "https://github.com/abbott567/talk-empathy-in-accessibility-src/issues"
   },
-  "homepage": "https://github.com/abbott567/talk-embracing-accessibility#readme"
+  "homepage": "https://github.com/abbott567/talk-empathy-in-accessibility-src#readme"
 }
